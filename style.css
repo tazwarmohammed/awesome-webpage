@@ -1,0 +1,38 @@
+.one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.first-one {
+    font-size: 24px #F9FAF8;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.second-one {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.second-item {
+    flex: auto;
+}
+
+.third-one {
+    flex: auto;
+}
+
+.fourth-one {
+    flex: auto;
+}
+
+.first-two {
+    text-align: center;
+    padding: 5%;
+}
