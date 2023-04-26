@@ -1,6 +1,5 @@
 .one {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 1fr;
@@ -9,30 +8,77 @@
 }
 
 .first-one {
-    font-size: 24px #F9FAF8;
+    font-size: 24px;
+    color: #F9FAF8;
     font-weight: bold;
     justify-self: center;
+    padding-right: 28%;
 }
 
 .second-one {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
+    display: flex;
+    padding-left: 20%;
+}
+
+.second-item, 
+.second-para {
+    color: #E5E7EB;
 }
 
 .second-item {
-    flex: auto;
+    flex: 0 1 150px;
+}
+
+.second-para {
+    margin-top: -45px;
+    margin-bottom: 3%;
 }
 
 .third-one {
-    flex: auto;
+    justify-self: center;
+    padding-bottom: 20%;
+    padding-left: 25%;
 }
 
 .fourth-one {
-    flex: auto;
+    padding-left: 12%;
 }
 
 .first-two {
     text-align: center;
-    padding: 5%;
+    padding: 40px;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+button {
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:active {
+    background-color: #3882F6;
+    color: white;
+}
+
+.button-one{
+    padding: 5px 25px;
+    border: #1F2937;
+}
+
+.second-two {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.img-container {
+    padding-right: 30px;
+}
+
+.img-subtext {
+    text-align: center;
+    margin-top: -1px;
+    width: auto;
 }
